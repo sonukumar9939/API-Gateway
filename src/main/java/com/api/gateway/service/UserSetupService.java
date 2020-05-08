@@ -17,7 +17,7 @@ public class UserSetupService {
 
 	@Autowired
 	private UserRepository userRepository;
-
+	
 	public void saveUserDetails(User user) {
 		userRepository.save(user);
 
